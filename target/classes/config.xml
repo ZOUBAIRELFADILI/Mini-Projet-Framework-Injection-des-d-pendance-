@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Déclaration de la version XML et encodage -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Déclaration de l'espace de noms Spring et des informations de schéma -->
+
+    <bean id="dao" class="dao.DaoImplV2"/>
+    <!-- Déclaration du premier bean nommé "dao" de la classe "dao.DaoImplV2" -->
+
+    <bean id="metier" class="metier.MetierImpl">
+        <!--<property name="dao" ref="dao"/>-->
+        <constructor-arg ref="dao"></constructor-arg>
+    </bean>
+    <!-- Déclaration du deuxième bean nommé "metier" de la classe "metier.MetierImpl" -->
+
+</beans>
