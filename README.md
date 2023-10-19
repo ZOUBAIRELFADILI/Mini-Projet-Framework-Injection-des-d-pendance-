@@ -1,15 +1,15 @@
-<h1 >Initiation à l'inversion de contrôle et à l'injection des dépendances</h1>
+<h1 >Activité Pratique N°1 - Injection des dépendances</h1>
 
 <h2 >Introduction</h2>
 
 <p>
-L'inversion de contrôle (IoC) est un processus qui permet de spécifier les dépendances d'un objet sans avoir à les instancier. C'est au moment de la création des objets que Spring va injecter les beans entre eux, garantissant que toutes les dépendances sont satisfaites.
+La magie derrière l'Inversion de Contrôle (IoC) réside dans la délégation de la gestion des dépendances. Avec IoC, vous définissez les besoins de vos objets sans les construire explicitement. C'est à Spring de jouer les maîtres d'orchestre lors de la création des objets, veillant à ce que les différents composants (beans) soient interconnectés de manière à satisfaire toutes les exigences en matière de dépendances.
 </p>
 <p>
-Cette approche libère le développeur de la responsabilité de gérer les dépendances techniques, lui permettant de se concentrer sur la logique métier de l'application.
+Cette méthode décharge le développeur de la tâche fastidieuse de prendre en charge les intrications techniques des dépendances, ce qui lui offre la liberté de se focaliser exclusivement sur la conception de la logique métier de l'application.
 </p>
 <p>
-Spring prend en charge l'injection des dépendances et toutes les tâches techniques associées, simplifiant ainsi le développement.
+Spring s'occupe de l'injection des dépendances et de toutes les opérations techniques connexes, simplifiant ainsi grandement le processus de développement.
 </p>
 
 <h2 >Ennoncé</h2>
